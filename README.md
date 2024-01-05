@@ -1,5 +1,7 @@
 # Ophilia Picture Row Selector
 
+![Ophilia Picture Row Selector](screenshot.png)
+
 ## Description
 The Ophilia Picture Row-Selector CLI is a specialized command-line interface designed to streamline the process of organizing and moving specific files between directories. This tool allows users to select files based on matching names from a source directory and copy them into a destination directory while filtering them by the desired extensions. It is particularly useful in scenarios where there is a need to sync or selectively migrate image files, document files, or any other types of files from one folder to another, ensuring that only files with specified names and extensions are transferred.
 
