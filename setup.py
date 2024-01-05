@@ -1,13 +1,13 @@
 import setuptools
 
 setuptools.setup(
-    name="ophilia_picture_row_selector",
+    name="op_raw_selector",
     version="0.0.1",
     author="MINT",
     author_email="pb1123love@gmail.com",
-    description="Ophilia Picture Row-Selector CLI",
+    description="Ophilia Picture RAW-Selector CLI",
     long_description_content_type="text/markdown",
-    url="<https://github.com/KingSick/ophilia-row-selector>",
+    url="<https://github.com/KingSick/op-raw-selector>",
     packages=setuptools.find_packages(
         where=".", exclude=("tests", "*.tests", "scripts", "docs")
     ),
@@ -18,7 +18,7 @@ setuptools.setup(
     ],
     entry_points={
         "console_scripts": [
-            "op-row-select=row_selector:cli",
+            "op-raw-select=raw_selector:cli",
         ],
     },
 )

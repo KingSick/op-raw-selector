@@ -3,9 +3,6 @@ import shutil
 
 import rich_click as click
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-TEMP_FILE = f"{BASE_DIR}/temp.py"
-
 
 @click.group()
 @click.rich_config(help_config=click.RichHelpConfiguration(use_markdown=True))
